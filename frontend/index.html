@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATLAS</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="controls">
+    <button id="mode-structure" class="active">Structure</button>
+    <button id="mode-change">Change Gravity</button>
+    <button id="mode-coupling">Coupling</button>
+  </div>
+  
+  <div id="tooltip"></div>
+  <canvas id="canvas"></canvas>
+  
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+  
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "Live spatial codebase visualization. Graph assembles in real-time. Architecture emerges. Truth before spectacle.",
+  "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "atlas": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js ."
+  },
+  "keywords": [
+    "codebase",
+    "visualization",
+    "graph",
+    "architecture"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.160.0",
+    "ws": "^8.16.0",
+    "simple-git": "^3.22.0",
+    "open": "^10.0.3",
+    "acorn": "^8.11.3",
+    "acorn-walk": "^8.3.2"
+  }
+}
